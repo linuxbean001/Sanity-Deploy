@@ -44,7 +44,7 @@ function MainPage() {
         <div className="container">
           <div className="row d-flex justify-content-center mb-5 pt-5">
           <div className="col-12">
-              <p className="welcometext"><b>Our blogs</b> are written to Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
+              <p className="welcometext"></p>
           </div>
         </div>
         </div>
