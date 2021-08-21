@@ -76,7 +76,7 @@ function BlogDetail() {
         <div className="col-12 col-md-8">
         <div className="blogwrap" data-aos="clogo" data-aos-once="true" data-aos-duration="1200">
           <div className="blog-post">
-            <h2 className= "text-uppercase">{postData.title}</h2>
+            <h2 className= "text-capitalize">{postData.title}</h2>
                 <p className="lastupdate">
                 <Link to="#"><i className="fa fa-user-circle-o"></i> {postData.name}</Link>
                 <i className="fa fa-calendar"></i> {Moment(postData.publishedAt).format('MMM DD, YYYY')}
