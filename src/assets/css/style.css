@@ -48,10 +48,41 @@ nav.Nav a{font-weight: bold; color: #131111;}
     color: #58585a;
 }
 
+.footerform{
+    margin-top: 90px ;
+}
+.news-subscription {
+    border: solid 1px #f1ede2;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px;
+    }
+    .news-subscription input {
+    border: none !important;
+    padding: 0 !important;
+    width: 100%;
+    }
+    .news-subscription a.readmore {
+    background: transparent;
+    padding: 5px 0 10px 0px;
+    }
+    .news-subscription input:focus {
+    outline: none;
+}
+
 .card-img {border: none;}
 
 .blogsection h2 {
     margin: 30px 0;
+}
+
+.footerimage{
+    background: no-repeat 0;
+    background-size: auto 101%;
+    margin-top: -16px;
+    margin-left: -16px;
 }
 
 .blogContent {
@@ -283,7 +314,6 @@ a:hover.readmorebig {
     font-weight: 500;
 }
 
-
 [data-aos="clogo"] {  
   opacity: 0;
   transition: all 2s;  
@@ -294,10 +324,12 @@ a:hover.readmorebig {
 
 
 @media (min-width: 1440px){
-.bigimg img {
-    max-width: 100%;
-    max-height: 630px;
-}
+.topRightCate .badge {
+    padding: 5px;
+    background: #7ca7bd;
+    min-width: 25px;
+    }
+    
 }
 
 @media (max-width: 1200px){
@@ -309,7 +341,7 @@ a:hover.readmorebig {
         position:absolute;
         width: 100%;
         background-color: white;
-        top: -100%;
+        top: -120%;
         left: 0px;
         transition: 0.5s;
         text-align: center;        
@@ -319,10 +351,17 @@ a:hover.readmorebig {
     }
     .navigation{
         display: block;
-        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .readpost{
         width: 27% !important;
+    }
+    .topRightCate .badge {
+        min-width: 25px;
+    }
+
+    .footerimage{
+        display: none;
     }
 }
 header.Hero-Inner.Hero.Hero--philosophy {
@@ -544,7 +583,9 @@ span.comments-type {
 .topMenu ul li {
     display: inline-block;
     padding: 15px;
-    border: solid 1px #ccc;
+    border: 1px solid #ccc;
+    margin-right: 2px;
+    text-transform: uppercase;
 }
 .topMenu {
     text-align: center;

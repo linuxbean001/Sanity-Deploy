@@ -63,7 +63,7 @@ function BlogDetail() {
     <main>
       <header className="Hero Hero--philosophy blogDetails">
         <figure className="Hero__background">
-          <Image fluid src={process.env.PUBLIC_URL+'/images/blog-bg.jpg'} alt=""/>
+          <Image fluid src={process.env.PUBLIC_URL+'/images/banner.jpg'} alt=""/>
         </figure>
         <Link className= "text-decoration-none text-dark text-uppercase" to="/">
         <h4 className="container text-uppercase">HOME</h4>
